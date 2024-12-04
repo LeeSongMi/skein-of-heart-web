@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --default-text-color: #1D1D1F;
+    --primary-color: var(--primary-colors-6);
+    --secondary-color: var(--secondary-colors-6);
+
+    --primary-colors-0: #ffffff;
+    --primary-colors-1: #fafafa;
+    --primary-colors-2: #f5f5f5;
+    --primary-colors-3: #f0f0f0;
+    --primary-colors-4: #dedede;
+    --primary-colors-5: #c2c2c2;
+    --primary-colors-6: #979797;
+    --primary-colors-7: #818181;
+    --primary-colors-8: #606060;
+    --primary-colors-9: #3c3c3c;
+
+    --secondary-colors-0: #E0F2F1;
+    --secondary-colors-1: #B2DFDB;
+    --secondary-colors-2: #80CBC4;
+    --secondary-colors-3: #4DB6AC;
+    --secondary-colors-4: #26A69A;
+    --secondary-colors-5: #009688;
+    --secondary-colors-6: #00897B;
+    --secondary-colors-7: #00796B;
+    --secondary-colors-8: #00695C;
+    --secondary-colors-9: #004D40;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary-colors-0: #3c3c3c;
+        --primary-colors-1: #606060;
+        --primary-colors-2: #818181;
+        --primary-colors-3: #979797;
+        --primary-colors-4: #c2c2c2;
+        --primary-colors-5: #dedede;
+        --primary-colors-6: #f0f0f0;
+        --primary-colors-7: #f5f5f5;
+        --primary-colors-8: #fafafa;
+        --primary-colors-9: #ffffff;
+        
+        --secondary-colors-0: #004D40;
+        --secondary-colors-1: #00695C;
+        --secondary-colors-2: #00796B;
+        --secondary-colors-3: #00897B;
+        --secondary-colors-4: #009688;
+        --secondary-colors-5: #26A69A;
+        --secondary-colors-6: #4DB6AC;
+        --secondary-colors-7: #80CBC4;
+        --secondary-colors-8: #B2DFDB;
+        --secondary-colors-9: #E0F2F1;
+    }
+}
+
+body {
+    color: var(--default-text-color);
+    /*background: var(--background);*/
+}
